@@ -1,10 +1,25 @@
-#Niall Questions
+# Niall Questions
 
-##Question 1 19/05/2016
+## Question 2 24/05/2016
 
 Here is code from yesterdays lesson:
 
-###app.erb
+```
+rails g controller cat index create new edit show update destroy
+```
+
+could we have run this on the **home** index too at the beginning?
+
+```
+rails g controller home index create new edit show update destroy
+```
+
+
+## Question 1 19/05/2016
+
+Here is code from yesterdays lesson:
+
+### app.erb
 ```
 get '/:subreddit' do
 	@title = "Home"
