@@ -1,5 +1,18 @@
 # Niall Questions
 
+## Question 3 29/05/2016
+
+I have a question about database designing.
+
+When storing a phone number, should I store it as a string or as an integer?
+
+When I stored it as an integer i.e. `0405463904` etc, i noticed that the data was stored in the database as `405436904`, dropping the initial `0`.
+
+Considering I'm not likely to be doing any calculations on user phone numbers, should I just store as a string and move on!?
+
+Thanks guys!
+-Niall
+
 ## Question 2 24/05/2016
 
 Here is code from yesterdays lesson:
